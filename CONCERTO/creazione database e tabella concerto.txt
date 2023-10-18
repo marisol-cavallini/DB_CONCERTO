@@ -1,0 +1,9 @@
+create database e5_concerto;
+create table e5_concerto.concerti(
+id_concerto int not null auto_increment,
+codice_concerto varchar(20),
+titolo_concerto varchar(20),
+descrizione_concerto varchar (100),
+data_concerto varchar(20),
+primary key (id_concerto)
+);
